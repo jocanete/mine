@@ -4,6 +4,7 @@ Mine::Application.routes.draw do
 
 
   get  'blog'=>'pages#blog'
+  get  'adn'=>'pages#adn'
 
  
 

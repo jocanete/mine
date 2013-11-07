@@ -1,4 +1,8 @@
 class PagesController < ApplicationController
-  def blog
+  def blog	
   end
+  def home
+  end
+  def adn
+  end	
 end
