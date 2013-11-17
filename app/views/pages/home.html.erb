@@ -5,28 +5,29 @@
 <div id="home">	
 	<div style="background-image: url(https://dl.dropboxusercontent.com/u/9768110/FOTO.png)">
 		<div class="row">
-			<div class="col-md-5 col-md-offset-1" style="padding-top: 25px">
-				<h1>LEAN STARTUP<br>MACHINE®</h1>
+			<div class="col-md-5 col-md-offset-1" style="padding: 25px">
+				<h1 style="font-size: 60px; font-weight: bold; font-color: white; text-color: inherit;">LEAN STARTUP<br>MACHINE® LAB</h1>
 			</div>
 		</div>	
+	<!-- Logo bomba -->
 		<div class="row">
-				<div class="col-md-5 col-md-offset-1">
-					<img src="https://dl.dropboxusercontent.com/u/9768110/Z.POWEREDBY.png">
+				<div class="col-md-7 col-md-offset-1">
+					<img src="https://dl.dropboxusercontent.com/u/9768110/LOGO%20BOMBA.png" width=30% height=30%>
   				
 				</div>
 		</div>	
 			<div class="row">	
-				<div class="col-md-5 col-md-offset-1" style="padding:10px">
+				<div class="col-md-7 col-md-offset-1" style="padding:10px">
 					<blockquote>
-  						<p class="lead" class="text-left">El método para transformar tu empresa en una máquina de productos innovadores y exitosos.
+  						<p class="lead" class="text-left" style="font-size: 35px;">El método para transformar tu empresa en una máquina de productos innovadores y exitosos.
   						<p>
   					</blockquote>
 				</div>
 			</div>
 	<!-- cambiar el color del boton de descargar (#fee901 o #feea00) -->			
-		<div class="row" style="padding: 30px">
-			<div class="btn col-md-3 col-md-offset-1">	
-  				<a href="#form" class="btn btn-danger btn-lg" role="button">Inscribe a tu empresa</a>
+		<div class="row" style="padding: 30px;">
+			<div class="btn col-md-5 col-md-offset-1">	
+  				<a href="#form" class="btn btn-danger btn-lg btn-block" role="button" style="font-size: 25px;">Contactanos para conversar</a>
 			</div>
 		</div>
 	</div>
@@ -34,7 +35,7 @@
 <!-- Comienzo seccion marcas y mundo completo (nuestros clientes) -->
 <div id="clientes">
 <div style="background-color:white">
-	<div class="row">
+	<div class="row" style="padding: 25px;">
 		<div class="col-md-10 col-md-offset-1">
 			<h1 class="text-center">Las empresas más importantes del mundo <br> utilizan Lean Startup Machine®</h1>
 		</div>
@@ -42,7 +43,7 @@
 	
 		<div class="row">
 			<div class="col-md-12">
-			<img src="https://dl.dropboxusercontent.com/u/9768110/Captura%20de%20pantalla%202013-11-16%2017.09.28.png" alt="google" width=110% height=110%>
+			<img src="https://dl.dropboxusercontent.com/u/9768110/mapa.png" alt="google" width=100% height=100%>
 			</div>
 		</div>	
 </div>
@@ -121,17 +122,19 @@
 
 <!-- formulario -->
 <div id="form">
-<div style="background-color:white; padding:20px"></div>
+	<div style="background-color:white; padding:20px">
+		<div class="col-md-10 col-md-offset-1">
+			<h1 class="text-center">Si estas interesado en innovar <br>en tu empresa como los mejores.</h1>
+				</div>
+					<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+  						<p class="lead" class="text-center" style="padding-top: 10px">Contáctanos acá</p>
+					</div>
+					</div>
 
-<div class="col-md-5 col-md-offset-1">
-				<h1 class="text-left">Si estas interesado en <br> innovar en tu empresa como los mejores.</h1>
-				<blockquote>
-  						<p class="lead" style="padding-top: 10px">Contáctanos acá</p>
-		
-			</div>
 
 <div class="row" style="padding-top: 15px">
-	<div class="col-md-5 col-md-offset-3">
+	<div class="col-md-4 col-md-offset-4">
 		<%= render :partial=>"form"%>
 	</div>
 	</div>
@@ -141,31 +144,84 @@
 </div>
 </div>
 </div>
+</div>
+<!-- Equipo más foto -->
+<div id="equipo">
+
+<ul class="media-list">
+  <li class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object; img-circle" src="https://dl.dropboxusercontent.com/u/9768110/alf.jpg" alt="alfredo">
+    </a>
+    <div class="media-body">
+      <h3 class="media-heading">Alfredo Osoio</h3>
+      <p>Alfredo Osorio (@alf2021) lleva mas de 22 años como emprendedor, inversionista angel y mentor de innumerables emprendimientos. Fue co-Fundador de Patagon.com International, es inversionista angel de Tiaxa.net entre muchas otras Startups. Actualmente es Fundador de BOMBAcamp, campus de emprendedores que ayuda a las Startups a aumentar su probabilidad de éxito y cambiar la forma como se transforma una idea en un producto o servicio. Es especialista en Lean Startup y Customer Development.</p>    
+  </div>
+  </li>
+</ul>
+<ul class="media-list">
+  <li class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object; img-circle" src="https://dl.dropboxusercontent.com/u/9768110/Captura%20de%20pantalla%202013-11-17%2019.52.42.png" alt="alfredo">
+    </a>
+    <div class="media-body">
+      <h3 class="media-heading">Trevor Owens</h3>
+      <p>Trevor es emprendedor y líder en la metodología Lean Startup. Como fundador y CEO Lean Startup Machine, que ha ayudado a miles de fundadores de startups e individuos de organizaciones como Google, Salesforce, News Corp, Intuit, y otros, comienzan a cientos de nuevos negocios en los cinco continentes. Owens está activo en la comunidad como un entrenador para el programa de becarios de la Innovación de la Casa Blanca y como exponente especial en Princeton y la Universidad de Columbia.</p>    
+  </div>
+  </li>
+</ul>
+<ul class="media-list">
+  <li class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object; img-circle" src="https://dl.dropboxusercontent.com/u/9768110/Captura%20de%20pantalla%202013-11-17%2019.58.33.png" alt="alfredo" class="img-circle">
+    </a>
+    <div class="media-body">
+      <h3 class="media-heading">Obie Fernández</h3>
+      <p>Obie es un empresario, y autor del best seller Ruby on Rails. Además es el director de tecnología de Lean Startup Machine. Anteriormente fundó Hashrocket, una de las tiendas de desarrollo web más venerados de Rails en el mundos, que se llevó a más de 35 empleados y casi 7 millones de dólares en ingresos en 2010. Fernández cuenta con más de 15 años de experiencia en programación y desarrollo de productos para el equipo de la máquina Lean Startup</p>    
+  </div>
+  </li>
+</ul>
+<ul class="media-list">
+  <li class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object; img-circle" src="https://dl.dropboxusercontent.com/u/9768110/alf.jpg" alt="alfredo">
+    </a>
+    <div class="media-body">
+      <h3 class="media-heading">Mijael Feldman</h3>
+      <p>Obie es un empresario, y autor del best seller Ruby on Rails. Además es el director de tecnología de Lean Startup Machine. Anteriormente fundó Hashrocket, una de las tiendas de desarrollo web más venerados de Rails en el mundos, que se llevó a más de 35 empleados y casi 7 millones de dólares en ingresos en 2010. Fernández cuenta con más de 15 años de experiencia en programación y desarrollo de productos para el equipo de la máquina Lean Startup</p>    
+  </div>
+  </li>
+</ul>
+<ul class="media-list">
+  <li class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object; img-circle" src="https://dl.dropboxusercontent.com/u/9768110/alf.jpg" alt="alfredo">
+    </a>
+    <div class="media-body">
+      <h3 class="media-heading">Sebastián Rojas</h3>
+      <p>Obie es un empresario, y autor del best seller Ruby on Rails. Además es el director de tecnología de Lean Startup Machine. Anteriormente fundó Hashrocket, una de las tiendas de desarrollo web más venerados de Rails en el mundos, que se llevó a más de 35 empleados y casi 7 millones de dólares en ingresos en 2010. Fernández cuenta con más de 15 años de experiencia en programación y desarrollo de productos para el equipo de la máquina Lean Startup</p>    
+  </div>
+  </li>
+</ul>
+</div>
 <!-- footer -->
  <div style="background-color: #ECECEC; padding:40px">
-		<div class="col-md-8 col-md-offset-2">
-			<div style="background-color:##ACACAC; padding:3px">
-			</div>
-		</div>
+		
 		<div class="row">
-			<div class="col-md-4 col-md-offset-1">
-				<p class="text-left"><small><strong>©Lean Startup Machine.</strong> All Rights Reserved.</small></p>
-			</div>	
 			<div class="col-md-4 col-md-offset-1">	
-				<p class="text-right">Powered by BombaCamp</p>		
+				<p class="text-center"><small>Powered by <strong>BombaCamp</strong></small></p>		
+			</div>
+			<div class="col-md-4 col-md-offset-1">
+				<p class="text-center"><small><strong>©Lean Startup Machine.</strong> All Rights Reserved.</small></p>
+			</div>	
+			
+		</div>
+		<div class"row">
+			<div class="col-md-4 col-md-offset-4">
+				<img src="https://dl.dropboxusercontent.com/u/9768110/logosabajo.png" width=75% height=75%>
 			</div>
 		</div>
-
-
-</div>
- 	
-  
-
-
-
-
-
-	
+</div>	
 </body>
  
     
