@@ -2,7 +2,8 @@
 <div data-spy="scroll">
 
 <!-- Imagen tipo Jumbotron para comenzar (mensaje + boton de seguir) -->
-	<div id="home" style="background-image: url(https://dl.dropboxusercontent.com/u/9768110/FOTO.png)">
+<div id="home">	
+	<div style="background-image: url(https://dl.dropboxusercontent.com/u/9768110/FOTO.png)">
 		<div class="row">
 			<div class="col-md-5 col-md-offset-1" style="padding-top: 25px">
 				<img src="https://dl.dropboxusercontent.com/u/9768110/Z.POWEREDBY.png">
@@ -10,7 +11,7 @@
 		</div>	
 		<div class="row">
 				<div class="col-md-5 col-md-offset-1">
-  				<h1>LEAN STARTUP<br>MACHINE</h1>
+  				<h1>LEAN STARTUP<br>MACHINE®</h1>
 				</div>
 		</div>	
 			<div class="row">	
@@ -24,35 +25,32 @@
 	<!-- cambiar el color del boton de descargar (#fee901 o #feea00) -->			
 		<div class="row" style="padding: 40px">
 			<div class="btn col-md-3 col-md-offset-1">	
-  				<button type="button" class="btn btn-danger btn-lg">Comienza hoy</button>
+  				<a href="#form" class="btn btn-danger btn-lg" role="button">Inscribe a tu empresa</a>
 			</div>
 		</div>
 	</div>
-
-
+</div>
 <!-- Comienzo seccion marcas y mundo completo (nuestros clientes) -->
-
+<div id="clientes">
 <div style="background-color:white">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-			<h1 id="clientes" class="text-center">Las empresas más importantes del mundo <br> utilizan Lean Startup Machine®</h1>
+			<h1 class="text-center">Las empresas más importantes del mundo <br> utilizan Lean Startup Machine®</h1>
 		</div>
 	</div>
-	<div class="container">
+	
 		<div class="row">
 			<div class="col-md-12">
 			<img src="https://dl.dropboxusercontent.com/u/9768110/Captura%20de%20pantalla%202013-11-16%2017.09.28.png" alt="google" width=110% height=110%>
 			</div>
-		</div>
-
-	</div>	
+		</div>	
 </div>
-<!-- logos -->
-
+</div>
 <!-- Video y proceso -->
+<div id="taller">
 <div style="background-color:#feea00; padding-top: 50px">
 
-<h1 id="taller" class="text-center">Inicia el proceso para tu empresa con nuestro<br> <strong> Taller Lean Startup Machine®</strong> Intensivo de 3 días.</h1>
+<h1 class="text-center">Inicia el proceso para tu empresa con nuestro<br> <strong> Taller Lean Startup Machine®</strong> Intensivo de 3 días.</h1>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1"><br><br><br>
@@ -84,13 +82,15 @@
 		</div>	
 	</div>	
 </div>
+</div>
 
 
 <!-- ebook -->
+<div id="caso">
 <div style="background-color:white; container">
 
 	<div class="row">
-		<h1 id="caso" class="text-left; col-md-5 col-md-offset-1">Caso de Estudio <br><br><blockquote>
+		<h1 class="text-left; col-md-5 col-md-offset-1">Caso de Estudio <br><br><blockquote>
   			<p class="lead">When the landscape is changing so fast, establishing a process for sustainable innovation is your only way forward. Our structured process has been proven to boost team culture and increase the ability to identify new, disruptive business models.</p>
 		</blockquote> 
 		</h1>
@@ -115,16 +115,22 @@
 	<div style="background-color:#BDBDBD; padding:1px">
 </div>
 </div>
+</div>
 		
 
 <!-- formulario -->
-<div style="background-color:white; padding-top:20px"></div>
-<h1 id="form" class="text-left; col-md-5 col-md-offset-2">Si estas interesado en innovar en tu empresa como los mejores</h1>
-<h2>Contactanos acá</h2>
-<div class="row">
+<div id="form">
+<div style="background-color:white; padding:20px"></div>
 
-	
-	<div class="col-md-5 col-md-offset-6">
+<div class="col-md-5 col-md-offset-1">
+				<h1 class="text-left">Si estas interesado en <br> innovar en tu empresa como los mejores.</h1>
+				<blockquote>
+  						<p class="lead" style="padding-top: 10px">Contáctanos acá</p>
+		
+			</div>
+
+<div class="row" style="padding-top: 15px">
+	<div class="col-md-5 col-md-offset-3">
 		<%= render :partial=>"form"%>
 	</div>
 	</div>
@@ -133,12 +139,27 @@
 </div>
 </div>
 </div>
+</div>
 <!-- footer -->
+ <div style="background-color: #ECECEC; padding:40px">
+		<div class="col-md-8 col-md-offset-2">
+			<div style="background-color:##ACACAC; padding:3px">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-1">
+				<p class="text-left"><small><strong>©Lean Startup Machine.</strong> All Rights Reserved.</small></p>
+			</div>	
+			<div class="col-md-4 col-md-offset-1">	
+				<p class="text-right">Powered by BombaCamp</p>		
+			</div>
+		</div>
 
 
- <div>
- 	<img src="https://dl.dropboxusercontent.com/u/9768110/Captura%20de%20pantalla%202013-11-16%2022.06.43.png">
-  </div>
+</div>
+ 	
+  
+
 
 
 
