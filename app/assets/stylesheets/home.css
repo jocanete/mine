@@ -1,0 +1,16 @@
+.btn-primary {
+  background-color: hsl(58, 100%, 55%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff719", endColorstr="#fff719");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#fff719), to(#fff719));
+  background-image: -moz-linear-gradient(top, #fff719, #fff719);
+  background-image: -ms-linear-gradient(top, #fff719, #fff719);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff719), color-stop(100%, #fff719));
+  background-image: -webkit-linear-gradient(top, #fff719, #fff719);
+  background-image: -o-linear-gradient(top, #fff719, #fff719);
+  background-image: linear-gradient(#fff719, #fff719);
+  border-color: #fff719 #fff719 hsl(58, 100%, 55%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.00);
+  -webkit-font-smoothing: antialiased;
+  }
